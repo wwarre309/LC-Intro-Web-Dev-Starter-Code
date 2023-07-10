@@ -1,3 +1,5 @@
+// 10.11.4. Bonus Missions #4 and #5
+
 /* 4) Define a function with one parameter, which will be a string. The function must do the following:
 a) Have a clear, descriptive name.
 b) Retrieve only the last character from strings with lengths of 3 or less.

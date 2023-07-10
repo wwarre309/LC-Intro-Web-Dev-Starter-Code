@@ -1,3 +1,5 @@
+// 10.11.4. Bonus Missions #6
+
 //6) The area of a rectangle is equal to its length x width.
 
 //Define a function and the required parameters to calculate the area of a rectangle.
