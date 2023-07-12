@@ -1,6 +1,22 @@
 // 11.10.1. Practice Your Skills
 //Create an anonymous fucntion and set it equal to a variable.
-
+let exercise = function (x) {
+   
+    if (typeof x === "number") {
+   console.log(x*3)
+ 
+   return x*3
+   } else if (typeof x === "string") {
+   console.log("ARRR!");
+ 
+   return "ARRR!"
+   } else {
+      return x 
+   }
+ };   
+ 
+ exercise("doggy")
+ 
 
 
 /* Your function should:
@@ -15,6 +31,6 @@ a) Triple any the numbers.
 b) Replace any strings with “ARRR!”
 c) Print the new array to confirm your work.
 */
-let workGithub = 'humn';
-fxxfvv
+
+
 let arr = ['Elocution', 21, 'Clean teeth', 100];
