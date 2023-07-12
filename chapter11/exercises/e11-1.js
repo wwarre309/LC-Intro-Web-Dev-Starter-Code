@@ -15,5 +15,6 @@ a) Triple any the numbers.
 b) Replace any strings with “ARRR!”
 c) Print the new array to confirm your work.
 */
-let workGithub = 'humn'
+let workGithub = 'humn';
+fxxfvv
 let arr = ['Elocution', 21, 'Clean teeth', 100];
