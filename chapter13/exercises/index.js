@@ -1,8 +1,15 @@
 //Import modules:
-const input = //Import readline-sync.
-const averages = //Import functions from averages.js.
-const printAll = //Import function from display.js.
-const randomSelect = //Import function from randomSelect.js.
+const input = require('readline-sync');
+const averages =  .modules{
+  averageForStudent: averageForStudent
+  averageForTest: averageForTest
+};
+const printAll = require.(printAll) {
+  printAll: printAll
+};
+const randomSelect = export.modules {
+  randomFromArray: randomFromArray
+}
 
 //Candidate data:
 let astronauts = ['Fox','Turtle','Cat','Hippo','Dog'];

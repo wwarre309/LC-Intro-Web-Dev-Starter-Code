@@ -1,9 +1,49 @@
 // 12.8.1. Select the Crew
 
 // Code your selectRandomEntry function here:
+let crewArray = [];
+
+function selectRandomEntry (selection) {
+  let i = 0;
+  while (i < 3) {
+    let index = Math.floor(Math.random()*selection.length);
+    if(!crewArray.includes(selection[index])){
+      crewArray.push(selection[index]);
+      i++
+    }
+  }
+  
+  return crewArray;
+
+}
 
 
 // Code your buildCrewArray function here:
+function buildCrewArray (a,b) {
+
+  let crew = [];
+  
+    for (i=0; i < a.length; i++) {
+      for(j = 0; j < b.length; j++) {
+        if (b[j].astronautID === a[i]) {
+          crew.push(b[j]);
+        }
+      }
+    // Justin!!!//
+      
+    //while (j < b.length) {
+    //     if (crewArray[i] == b.astronautID) {
+    //       crew.push(b[j].name);
+    //     }
+    //   }
+    // }
+    
+        
+return crew
+
+    }
+}
+console.log(buildCrewArray())
 
 
 let idNumbers = [291, 414, 503, 599, 796, 890];
