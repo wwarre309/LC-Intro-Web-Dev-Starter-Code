@@ -1,0 +1,27 @@
+body {
+    background-color: yellow;
+  }
+  
+  p {
+    color: green
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    text-align: right;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  #cool-text {
+    color: blue;
+  }
+
+  #list-color {
+    color: brown;
+  }
